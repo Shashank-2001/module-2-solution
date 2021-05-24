@@ -1,0 +1,47 @@
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    font-size: 25px;
+    background-color: aqua;
+    width: 30%;
+    float: left;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: justify;
+
+}
+.box h3{
+    /* border: 1px solid black; */
+    margin-top: 0px;
+    float:right;
+    width: 120px;
+    text-align: center;
+    background-color: bisque;
+    border-radius:20px ;
+    display: block;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    #box2{
+        margin: 40px;
+    width: 40vw;
+    }
+    #box1{
+        margin:40px;
+        width: 40vw;
+
+    }
+    #box3{
+        width: 100vw;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .box{
+        width: 100vw;
+    }
+  }
